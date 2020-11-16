@@ -56,7 +56,7 @@ if __name__ == '__main__':
     # create word-cloud. A bit sluggish, you can subsample more strongly for quicker rendering
     # relative_scaling=0 means the frequencies in the data are reflected less
     # accurately but it makes a better picture
-    wc = WordCloud(max_words=2000, mask=mask, max_font_size=40, random_state=42, relative_scaling=0)
+    wc = WordCloud(max_words=500, mask=mask, max_font_size=40, random_state=42, relative_scaling=0)
 
     # generate word cloud
     wc.generate(text)
