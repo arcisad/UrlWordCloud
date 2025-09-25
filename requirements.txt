@@ -1,0 +1,7 @@
+requests
+wordcloud
+numpy
+scipy
+beautifulsoup4
+configargparse
+Pillow
