@@ -3,15 +3,15 @@ creates a word cloud using its contents and an input image as a template.
 
 **Input Args:**
 
---url: url to website
+`--url`: url to website
 
---image-file: image to be used as template for the word cloud
+`--image-file`: image to be used as template for the word cloud
 
---output-file: path to the generated output word cloud file
+`--output-file`: path to the generated output word cloud file
 
---max-words: maximum number of words uses in the word cloud, default = 500
+`--max-words`: maximum number of words uses in the word cloud, default = 500
 
---max-font-size: maximum font size used in the word cloud, default = 40
+`--max-font-size`: maximum font size used in the word cloud, default = 40
 
 
 ## Prerequisites
